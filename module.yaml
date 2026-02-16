@@ -1,0 +1,10 @@
+name: forge-google
+version: 0.1.0
+description: Google Workspace integration — Gmail, Calendar, Drive, Docs (placeholder).
+events: []
+
+provides:
+  email: false
+  calendar: false
+  tasks: false
+  files: false
