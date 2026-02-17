@@ -24,6 +24,13 @@ modules:
 
 Will likely require Google Cloud project with OAuth 2.0 credentials and a CLI tool (e.g., `gcloud` or a custom client).
 
+## Recommended Security Tools
+
+See [root installation guide](../../INSTALL.md#recommended-security-tools) for full setup. This module benefits from:
+
+- **shellcheck** — `brew install shellcheck` (shell script linting)
+- **[safety-net](https://github.com/kenryu42/claude-code-safety-net)** — destructive command protection
+
 ## Verify
 
 See [VERIFY.md](VERIFY.md) for the post-installation checklist.
